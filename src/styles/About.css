@@ -1,0 +1,46 @@
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 79px;
+  margin-bottom: 200px;
+}
+
+.about-right {
+  width: 500px;
+}
+
+.about-title {
+  font-family: Inter, Arial;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.about-tagline {
+  font-family: Inter, Arial;
+  font-size: 42.63px;
+  font-weight: 700;
+  color: #0D0D0D;
+  margin-bottom: 36px;
+}
+
+.text-to-blue {
+  color: #404E7C;
+}
+
+.about-p1 {
+  font-family: Inter, Arial;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 16px;
+}
+
+.about-p2 {
+  font-family: Inter, Arial;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}

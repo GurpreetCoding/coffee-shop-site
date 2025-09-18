@@ -1,0 +1,21 @@
+.textbox-container {
+  position: relative;
+}
+
+.textbox-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+
+.textbox-input { 
+  height: 44px;
+  width: 411px;
+  padding-left: 50px;
+  font-family: Inter, Arial;
+  font-size: 18px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+}

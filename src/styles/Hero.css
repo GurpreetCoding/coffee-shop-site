@@ -1,0 +1,32 @@
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 350px;
+}
+
+.hero-title {
+  font-family: Inter, Arial;
+  font-weight: 700;
+  font-size: 100.98px;
+  width: 700px;
+  margin-left: 72px;
+  margin-bottom: 8px;
+}
+
+.hero-tagline {
+  color: 0D0D0D;
+  font-family: Inter, Arial;
+  font-weight: 200;
+  font-size: 42.63px;
+  width: 700px;
+  margin-left: 72px;
+  margin-bottom: 32px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 40px;
+  width: 700px;
+  margin-left: 72px;
+}

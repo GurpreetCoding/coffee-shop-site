@@ -1,0 +1,14 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#404E7C, #314E3D);
+  height: 76px;
+}
+
+.footer-text {
+  font-family: Inter, Arial;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}

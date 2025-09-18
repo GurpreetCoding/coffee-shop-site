@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  gap: 28px;
+  margin-bottom: 40px;
+}
+
+html {
+  scroll-behavior: smooth;
+}

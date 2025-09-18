@@ -1,0 +1,66 @@
+.order-container {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #999999;
+  border-radius: 15px;
+  height: 577px;
+  width: 541px;
+}
+
+.order-title {
+  display: block;
+  font-family: Inter, Arial;
+  font-weight: 600;
+  font-size: 42.63px;
+  color: #0D0D0D;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.order-info {
+  padding: 15%;
+}
+
+.order-phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+  gap: 12px;
+}
+
+.phone-style {
+  font-family: Inter, Arial;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+}
+
+.order-hours {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 61px;
+  gap: 12px;
+}
+
+.hours-style {
+  font-family: Inter, Arial;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+}
+
+.order-location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.location-style {
+  font-family: Inter, Arial;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+}

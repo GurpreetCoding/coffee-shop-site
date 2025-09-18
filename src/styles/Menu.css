@@ -1,0 +1,38 @@
+.menu-container {
+  margin-bottom: 200px;
+}
+
+.menu-title {
+  text-align: center;
+  font-family: Inter, Arial;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+  margin-bottom: 14px;
+}
+
+.menu-tagline {
+  text-align: center;
+  font-family: Inter, Arial;
+  font-weight: 700;
+  font-size: 42.63px;
+  color: black;
+  margin-bottom: 68px;
+}
+
+.text-to-green {
+  color: #71B48D;
+}
+
+.menu-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-template-rows: repeat(2, auto);   /* 2 rows */
+  gap: 104px;
+  row-gap: 28px;
+}
