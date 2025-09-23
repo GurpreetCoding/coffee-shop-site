@@ -5,18 +5,8 @@ import img1 from '../assets/img-2.svg'
 import img2 from '../assets/img-2-resize.svg'
 
 function Hero() {
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 600);
-
-  useEffect(() => {
-    function handleResize() {
-      setIsMobile(window.innerWidth < 600);
-    }
-
-    window.addEventListener('resize', handleResize);
-
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
+  const [isMobile] = useState(window.innerWidth < 600);
+  
   return (
     <div className='hero-section'>
       <div className='hero-left'>
