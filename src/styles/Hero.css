@@ -4,6 +4,7 @@
   justify-content: space-evenly;
   margin-bottom: 350px;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .hero-title {
