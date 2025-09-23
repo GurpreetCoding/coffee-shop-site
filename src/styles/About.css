@@ -4,6 +4,7 @@
   justify-content: center;
   gap: 79px;
   margin-bottom: 200px;
+  flex-wrap: wrap;
 }
 
 .about-right {
@@ -43,4 +44,40 @@
   font-size: 16px;
   font-weight: 400;
   color: black;
+}
+
+@media (max-width: 600px){
+  .about-container {
+    padding: 10%;
+  }
+
+  .about-image {
+    width: 175px;
+    height: 263px;
+  }
+
+  .about-left {
+    order: 2;
+  }
+
+  .about-right {
+    order: 1;
+  }
+
+  .about-title {
+    text-align: center;
+    font-size: 13.5px;
+  }
+
+  .about-tagline {
+    text-align: center;
+    font-size: 23.99px;
+  }
+
+  .about-p1, .about-p2 {
+    text-align: center;
+    font-size: 10.13px;
+  }
+
+
 }

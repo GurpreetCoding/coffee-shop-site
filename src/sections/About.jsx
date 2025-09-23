@@ -6,7 +6,7 @@ function About() {
   return (
     <div className='about-container' id='about'>
       <div className='about-left'>
-        <img src={img3}></img>
+        <img className='about-image' src={img3}></img>
       </div>
       <div className="about-right">
         <div className='about-title'>About</div>
