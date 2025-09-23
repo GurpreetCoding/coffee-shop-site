@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from 'react'
+import React, { useState } from 'react'
 import '../styles/Hero.css'
 import Button from '../components/Button'
 import img1 from '../assets/img-2.svg'
@@ -6,7 +6,7 @@ import img2 from '../assets/img-2-resize.svg'
 
 function Hero() {
   const [isMobile] = useState(window.innerWidth < 600);
-  
+
   return (
     <div className='hero-section'>
       <div className='hero-left'>
