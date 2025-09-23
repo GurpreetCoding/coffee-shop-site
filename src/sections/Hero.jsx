@@ -15,7 +15,7 @@ function Hero() {
     window.addEventListener('resize', handleResize);
 
     return () => window.removeEventListener('resize', handleResize);
-  }, []);
+  });
 
   return (
     <div className='hero-section'>
@@ -28,7 +28,8 @@ function Hero() {
         </div>
       </div>
       <div className='hero-right'>
-        <img className='hero-image' src={isMobile ? img2 : img1}></img>
+        <img className='hero-desktop' src={img1}></img>
+        <img className='hero-mobile' src={img2}></img>
       </div>
     </div>
   )
