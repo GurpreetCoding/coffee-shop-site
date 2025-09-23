@@ -17,9 +17,9 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <About id='about'/>
-      <Menu id='menu'/>
-      <div className='container' id='order/contact'>
+      <About/>
+      <Menu />
+      <div className='container'>
         <Order className='order' />
         <Contact className='contact' />
       </div>

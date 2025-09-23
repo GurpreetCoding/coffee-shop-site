@@ -13,8 +13,8 @@ function Hero() {
         <div className='hero-title'>Start your Morning with Something Better.</div>
         <div className='hero-tagline'>Coffee. Comfort. Community.</div>
         <div className='hero-buttons'>
-          <a href='../App.jsx#order/contact'><Button className="hero-left-button" name="Order" size={`${isMobile ? 'small' : 'large'}`} color="blue"/></a>
-          <a href='../App.jsx#menu'><Button name="Menu" size={`${isMobile ? 'small2' : 'large2'}`} color="transparent"/></a>
+          <a href='#order'><Button className="hero-left-button" name="Order" size={`${isMobile ? 'small' : 'large'}`} color="blue"/></a>
+          <a href='#menu'><Button name="Menu" size={`${isMobile ? 'small2' : 'large2'}`} color="transparent"/></a>
         </div>
       </div>
       <div className='hero-right'>

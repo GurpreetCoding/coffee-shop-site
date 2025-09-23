@@ -6,7 +6,7 @@ import icon3 from '../assets/icon-3.svg'
 
 function Order() {
   return (
-    <div className='order-container'>
+    <div className='order-container' id="order">
       <div className='order-title'>Order</div>
       <div className='order-info'>
         <div className='order-phone'>

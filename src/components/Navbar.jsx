@@ -29,10 +29,10 @@ function Navbar() {
 
       <div className={`nav-links ${isOpen ? 'open' : ''}`}>
         <a href='#'><div className='nav-link'>Home</div></a>
-        <a href='../App.jsx#menu'><div className='nav-link'>Menu</div></a>
-        <a href='../App.jsx#about'><div className='nav-link'>About</div></a>
-        <a href='../App.jsx#order/contact'><div className='nav-link'>Contact</div></a>
-        <a href='../App.jsx#order/contact'><Button className="nav-button" name='Order' size="small" color='blue'></Button></a>
+        <a href='#menu'><div className='nav-link'>Menu</div></a>
+        <a href='#about'><div className='nav-link'>About</div></a>
+        <a href='#order'><div className='nav-link'>Contact</div></a>
+        <a href='#contact'><Button className="nav-button" name='Order' size="small" color='blue'></Button></a>
       </div>
     </div>
   )
