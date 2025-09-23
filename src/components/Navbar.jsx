@@ -32,7 +32,7 @@ function Navbar() {
         <a href='#menu'><div className='nav-link'>Menu</div></a>
         <a href='#about'><div className='nav-link'>About</div></a>
         <a href='#order'><div className='nav-link'>Contact</div></a>
-        <a href='#contact'><Button className="nav-button" name='Order' size="small" color='blue'></Button></a>
+        <a href='#order'><Button className="nav-button" name='Order' size="small" color='blue'></Button></a>
       </div>
     </div>
   )
