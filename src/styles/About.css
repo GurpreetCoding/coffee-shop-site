@@ -47,29 +47,9 @@
 }
 
 @media (max-width: 600px){
-  .about-container {
-    flex-direction: column;
-    width: 100%;
-    max-width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
   .about-image {
     width: 175px;
     height: 263px;
-  }
-
-  .about-left {
-    order: 2;
-    width: 100%;
-    align-items: center;
-  }
-
-  .about-right {
-    order: 1;
-    width: 100%;
-    padding-right: 50%;
   }
 
   .about-title {
@@ -90,5 +70,24 @@
     overflow-wrap: break-word;
   }
 
+  .about-right {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+
+  .about-container {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 100px;
+  }
+
+  .about-left {
+    display: flex;
+    justify-content: center;
+    order: 2;
+  }
 
 }
