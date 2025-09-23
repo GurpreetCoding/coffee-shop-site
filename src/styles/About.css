@@ -48,7 +48,7 @@
 
 @media (max-width: 600px){
   .about-container {
-    padding: 10%;
+    flex-direction: column;
   }
 
   .about-image {
