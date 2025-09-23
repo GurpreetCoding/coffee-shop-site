@@ -19,3 +19,9 @@
   border-width: 2px;
   border-radius: 15px;
 }
+
+@media (max-width: 600px) {
+  .textbox-input {
+    width: 180px;
+  }
+}

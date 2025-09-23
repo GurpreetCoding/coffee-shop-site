@@ -47,3 +47,14 @@
   width: 411px;
   resize: none;
 }
+
+@media (max-width: 600px) {
+  .contact-container {
+    height: 777px;
+    width: 270px;
+  }
+
+  .contact-textarea {
+    width: 180px;
+  }
+}

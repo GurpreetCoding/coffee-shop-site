@@ -64,3 +64,23 @@
   font-size: 18px;
   color: black;
 }
+
+@media (max-width: 600px) {
+  .order-container {
+    height: 288px;
+    width: 270px;
+  }
+
+  .order-title {
+    font-size: 23.99px;
+  }
+
+  .order-phone, .order-hours {
+    margin-bottom: 20px;
+  }
+
+  .phone-style, .hours-style, .location-style {
+    font-size: 13.5px;
+  }
+
+}

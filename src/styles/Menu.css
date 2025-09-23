@@ -36,3 +36,26 @@
   gap: 104px;
   row-gap: 28px;
 }
+
+@media (max-width: 600px) {
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+
+    gap: 10%;
+    row-gap: 10px;
+  }
+
+  .menu-title {
+    text-align: center;
+    font-size: 13.5px;
+  }
+
+  .menu-tagline {
+    text-align: center;
+    font-size: 23.99px;
+    overflow-wrap: break-word;
+  }
+
+}

@@ -20,8 +20,8 @@ function App() {
       <About id='about'/>
       <Menu id='menu'/>
       <div className='container' id='order/contact'>
-        <Order />
-        <Contact />
+        <Order className='order' />
+        <Contact className='contact' />
       </div>
       <Footer />
     </>

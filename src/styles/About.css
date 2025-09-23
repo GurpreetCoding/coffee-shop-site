@@ -49,6 +49,10 @@
 @media (max-width: 600px){
   .about-container {
     flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .about-image {
@@ -58,10 +62,14 @@
 
   .about-left {
     order: 2;
+    width: 100%;
+    align-items: center;
   }
 
   .about-right {
     order: 1;
+    width: 100%;
+    padding-right: 50%;
   }
 
   .about-title {
@@ -72,11 +80,14 @@
   .about-tagline {
     text-align: center;
     font-size: 23.99px;
+    overflow-wrap: break-word;
   }
 
   .about-p1, .about-p2 {
     text-align: center;
     font-size: 10.13px;
+    width: 100%;
+    overflow-wrap: break-word;
   }
 
 
